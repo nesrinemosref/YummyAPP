@@ -1,0 +1,113 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yummy</title>
+    <!--?========> Favicon <========-->
+    <link rel="icon" href="./images/logo.png" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+<style>.display figcaption:hover {
+    cursor: pointer;
+}
+.display figcaption:hover .layer{
+   
+
+top:0%;
+}</style>
+</head>
+<body >
+ <div class="side-bar  h-100 position-fixed d-flex flex-column flex-wrap  z-3">
+    <div class="side-nav   bg-black    h-100 d-flex flex-column justify-content-between py-5 ">
+        <div class="nav text-light">
+            <ul>
+                <li class="search fs-5 nav-item" ><a href="./search.html" class="text-light">Search</a></li>
+                <li class="my-3 fs-5  nav-item"><a href="./categories.html" class="text-light">Categories</a></li>
+                <li class="fs-5 nav-item"><a href="./area.html" class="text-light">Area</a></li>
+                <li class="my-3 fs-5 nav-item" nav-item><a href="./ingredients.html" class="text-light">Ingredients</a></li>
+                <li class="fs-5 nav-item"><a href="./contact.html" class="text-light">Contact Us</a></li>
+
+            </ul>
+            </div>
+        <div class="social-copyright ps-5 text-light">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+           <i class="fa-solid fa-basketball"></i>
+           <p>Copyright Â© 2019 All Rights
+            Reserved.</p>
+
+        </div>   
+    </div>
+    <div class="open-sidebar bg-white h-100 d-flex flex-column justify-content-between align-items-center  py-5">
+        <div class="img" style="width: 50px;">
+            <img src="./images/logo.png" alt="">
+          
+        </div>
+        <div class="icon-close">
+           <!-- <i class="fa-solid fa-xmark fa-3x"></i>-->
+           <i class="fa-solid fa-bars fa-3x"></i>
+            
+        </div>
+        <div class="icon-parametre">
+           <div><i class="fa-solid fa-basketball"></i></div> 
+           <div><i class="fa-solid fa-share-nodes"></i></div>
+        </div>
+    </div>
+ </div>
+    
+   
+<!--
+ <section class="search py-5">
+  <div class="container">
+    <div class="row w-75 mx-auto">
+        <div class="col-md-6">
+            <input type="text" placeholder="Search By Name " class=" bg-transparent border-light form-control ">
+
+        </div>
+        <div class="col-md-6">
+            <input type="text" placeholder="Search By Filter Letter"  class=" bg-transparent border-light form-control ">
+        </div>
+    
+   </div> 
+  </div>
+</section>
+-->
+<section class="display">
+    <div class="container">
+        <div class="row gy-2 ps-5 " id="resultDisplay">
+
+        </div>
+    </div>
+</section>
+</section>
+
+
+<a href="${DetailsData.meals[0].strCategory}" class="bg-danger text-white p-2 rounded-2">youtube</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js" type="module"></script>
+<script src="js/area.js"></script>
+</body>
+</html>
